@@ -4,19 +4,19 @@ import {NavLink} from 'react-router-dom';
 
 const NavBar = () => {
     
-    const [clicked, setClicked] = React.useState(false)
+    const [hamburgerClicked, setHamburgerClicked] = React.useState(false)
 
     function handleClick(){
-        setClicked(prevState => prevState =! prevState)
+        setHamburgerClicked(prevState => prevState =! prevState)
     }
 
     return (
         <nav className="navbar__items">
             <h1 className="navbar__logo"><i className="fab fa-react"></i></h1>
             <div className="menu__icon" onClick={handleClick}>
-                <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                <i className={hamburgerClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
-            <ul className={clicked ? 'nav__menu active' : 'nav__menu'}>
+            <ul className={hamburgerClicked ? 'nav__menu active' : 'nav__menu'}>
                 {MenuItems.map((item, index) => {
                     return (
                         <li>
