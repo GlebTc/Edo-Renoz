@@ -1,8 +1,8 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 
-import About from './components/pages/About'
-import NavBar from "./components/NavBar";
+import Home from './components/pages/Home';
+import NavBar from "./components/Navbar/NavBar";
 import Footer from "./components/Footer";
 
 import './sass/main.scss';
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <NavBar />
         <Routes>
-          <Route exact path="/" element={<About />} />       
+          <Route exact path="/" element={<Home />} />       
         </Routes>
       <Footer />
     </Router>

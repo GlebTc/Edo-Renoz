@@ -1,3 +1,11 @@
 @import './components/about';
 @import './components/footer';
 @import './components/navbar';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
