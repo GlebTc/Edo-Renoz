@@ -6,7 +6,7 @@ import About from './components/pages/About';
 import Services from './components/pages/Services';
 import Gallery from './components/pages/Gallery';
 import Contact from './components/pages/Contact';
-import NavBar from "./components/Navbar/NavBar";
+import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
 import './sass/main.scss';
