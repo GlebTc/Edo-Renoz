@@ -16,7 +16,7 @@ const NavBar = () => {
 
     return (
         <nav className="navbar__container">
-            <h1 className="navbar__logo"><i className="fab fa-react"></i></h1>
+            <h1 className="navbar__logo"><i className="fa-solid fa-hammer"></i></h1>
             <div className="menu__icon" onClick={handleClick}>
                 <i className={hamburgerClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
