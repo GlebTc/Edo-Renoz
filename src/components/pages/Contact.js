@@ -75,6 +75,7 @@ const Contact = () => {
                 Submit
                 </button>
             </form>
+            <button><a href="tel:+1999999999">999-999-999</a></button>
         </div>        
     )
 }

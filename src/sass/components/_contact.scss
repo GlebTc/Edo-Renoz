@@ -13,8 +13,16 @@
     line-height: 1.5rem;
     padding-left: 10px;
 }
+
+.contact__form__container {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+}
   
-.submit-btn {
+.submit-btn, button {
     width: 15%;
     min-width: 150px;
     background-color: rgb(144, 144, 240);
@@ -28,14 +36,12 @@
     font-weight: 700;
 }
 
-.contact__form__container {
-    border: 1px solid black;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 2% 0;
+button {
+    width: 25%;
+    text-decoration: none;
+    margin-top: 1px;
 }
   
-.submit-btn:hover {
+.submit-btn:hover, button:hover {
     background-color: rgb(48, 65, 110);
 }
