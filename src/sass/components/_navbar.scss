@@ -9,8 +9,10 @@
 }
 
 .navbar__logo {
-    color: #fff;
-    justify-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;   
     margin-left: 20px;
     cursor: pointer;
 }
@@ -94,7 +96,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
+        transform: translate(250%, 125%);
     }
 
     .menu__icon {
@@ -102,7 +104,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-100%, 60%);
+        transform: translate(-250%, 85%);
         font-size: 1.8rem;
         cursor: pointer;
     }

@@ -2,7 +2,40 @@
     background-color: rgb(144, 144, 240);
     height: 10vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-size: 1.2rem;
+}
+
+.footer__container > h1 {
+    color: #fff;
+}
+
+.social__media__icons {
+    height: 50px;
+}
+  
+.footnote__connect,
+.footnote__connect > a:visited {
+    color:#fff;
+}
+  
+.footnote__connect a:hover {
+    color: rgb(48, 65, 110);
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 650px){
+    .footer__container {
+        padding: 50px;
+    }
+
+    .social__media__icons {
+        margin: 20px;
+    }
+
+    .footer__container > h1 {
+        margin: 20px;
+        font-size: 1.6rem;
+    }
 }
