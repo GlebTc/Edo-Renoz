@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .navbar__logo {
@@ -39,7 +40,7 @@
 }
 
 .nav__links:hover {
-    background-color: rgb(97, 212, 197);
+    background-color: rgb(48, 65, 110);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
