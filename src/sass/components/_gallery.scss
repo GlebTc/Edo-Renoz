@@ -1,0 +1,23 @@
+
+.main__container {
+    text-align: center;
+    color: #fff;
+}
+
+.main__container > h1 {
+    margin: 25px;
+}
+
+.gallery__images__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+
+.gallery__img {
+    object-fit: cover;
+    width: 250px;
+    height: 150px;
+    margin: 0 0 5px 5px;
+}  
+
