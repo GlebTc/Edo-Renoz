@@ -17,9 +17,8 @@
     cursor: pointer;
 }
 
-.fa-react {
-    margin-left: 0.5rem;
-    font-size: 1.6rem;
+.fa-hammer {
+    margin-right: 20px;
 }
 
 
@@ -98,6 +97,10 @@
         // top: 0;
         // left: 0;
         // transform: translate(250%, 125%);
+    }
+
+    .fa-hammer {
+        margin-right: 20px;
     }
 
     .menu__icon {
