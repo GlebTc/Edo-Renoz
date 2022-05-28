@@ -5,7 +5,7 @@ const Services = () => {
         <div className="main__container">
             <h1>Our Services</h1>
                 <ul>
-                    <li className="li1">Residential
+                    <li className="li1"><h2>Residential</h2>
                         <ul>
                             <li className="li2">Kitchen Remodeling & Repairs</li>
                             <li className="li2">Bathroom Remodeling & Renovations</li>
@@ -16,7 +16,7 @@ const Services = () => {
                             <li className="li2">Other General Residential Contractor Services</li>
                         </ul>
                     </li>
-                    <li className="li1">Commercial
+                    <li className="li1"><h2>Commercial</h2>
                         <ul>
                         <li className="li2">Commercial Property Modification</li>
                         <li className="li2">New Flooring Installation</li>

@@ -1,7 +1,11 @@
 .main__container li{
-    
+    align-items: center;
 }
 
+h2 {
+    font-size: 1.8rem;
+    margin: 20px;
+}
 .li1 {
     font-size: 2rem;
     margin-left: 20px;
@@ -11,7 +15,8 @@
 
 .li2 {
     font-size: 1.5rem;
-    font-weight: 400;
+    line-height: 2.5rem;
+    font-weight: 600;
     list-style-type: circle;
     text-align: left;
     margin-left: 15%;
