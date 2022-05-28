@@ -46,6 +46,12 @@
     transition: all 0.2s ease-out;
 }
 
+.nav__links.active{
+    background-color: rgb(148, 168, 224);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
 .fa-bars {
     color: #fff;
 }
