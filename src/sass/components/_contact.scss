@@ -22,7 +22,7 @@
     padding: 2% 0;
 }
   
-.submit-btn, button {
+.submit-btn {
     width: 15%;
     min-width: 150px;
     background-color: rgb(144, 144, 240);
@@ -30,18 +30,34 @@
     border-radius: 20px;
     border: none;
     padding: 0.5em 1.7em;
-    margin: 20px;
+    margin-top: 20px;
     color: #fff;
     font-size: 1rem;
     font-weight: 700;
 }
 
-button {
-    width: 25%;
-    text-decoration: none;
-    margin-top: 1px;
+#call__btn {
+    width: 45%;
+    min-width: 150px;
+    max-width: 400px;
+    background-color: rgb(144, 144, 240);
+    transition: 0.7s;
+    border-radius: 20px;
+    border: none;
+    padding: 0.5em 1.7em;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
 }
+
+#call__btn > a:visited,
+#call__btn > a {
+    color: #fff;
+    text-decoration: none;
+}
+
   
-.submit-btn:hover, button:hover {
+.submit-btn:hover, #call__btn:hover {
     background-color: rgb(48, 65, 110);
 }
