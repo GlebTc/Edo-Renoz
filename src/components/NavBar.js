@@ -2,6 +2,7 @@ import React from 'react'
 import {MenuItems} from './utilities/MenuItems'
 import {NavLink} from 'react-router-dom';
 
+
 const NavBar = () => {
     
     const [hamburgerClicked, setHamburgerClicked] = React.useState(false)
@@ -16,7 +17,7 @@ const NavBar = () => {
 
     return (
         <nav className="navbar__container">
-            <NavLink to="/" className="logo__link"> <h1 className="navbar__logo"><i className="fa-solid fa-hammer"></i>Edos Renoz</h1> </ NavLink>
+            <NavLink to="/" className="logo__link"> <div className="navbar__logo"><img src="/images/logo.png" alt="Edos Renos Logo"/></div> </ NavLink>
             <div className="menu__icon" onClick={handleClick}>
                 <i className={hamburgerClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>

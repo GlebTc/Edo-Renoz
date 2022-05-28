@@ -6,6 +6,7 @@ const Services = () => {
             <h1>Our Services</h1>
                 <ul>
                     <li className="li1"><h2>Residential</h2>
+                    <span className="underline"></span>
                         <ul>
                             <li className="li2">Kitchen Remodeling & Repairs</li>
                             <li className="li2">Bathroom Remodeling & Renovations</li>
@@ -17,6 +18,7 @@ const Services = () => {
                         </ul>
                     </li>
                     <li className="li1"><h2>Commercial</h2>
+                    <span className="underline"></span>
                         <ul>
                         <li className="li2">Commercial Property Modification</li>
                         <li className="li2">New Flooring Installation</li>
