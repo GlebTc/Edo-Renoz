@@ -43,6 +43,7 @@ const Contact = () => {
                 onChange={handleChange}
                 name="name"
                 value={formData.name}
+                required
                 />
 
                 <input
@@ -52,6 +53,7 @@ const Contact = () => {
                 onChange={handleChange}
                 name="email"
                 value={formData.email}
+                required
                 />
 
                 <input
@@ -61,6 +63,7 @@ const Contact = () => {
                 onChange={handleChange}
                 name="subject"
                 value={formData.subject}
+                required
                 />
 
                 <textarea
@@ -70,6 +73,7 @@ const Contact = () => {
                 onChange={handleChange}
                 name="message"
                 value={formData.message}
+                required
                 />
 
                 <button className='submit-btn'>
