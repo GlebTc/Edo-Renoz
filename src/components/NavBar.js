@@ -16,7 +16,7 @@ const NavBar = () => {
 
     return (
         <nav className="navbar__container">
-            <h1 className="navbar__logo"><i className="fa-solid fa-hammer"></i>Edos Renoz</h1>
+            <NavLink to="/" className="logo__link"> <h1 className="navbar__logo"><i className="fa-solid fa-hammer"></i>Edos Renoz</h1> </ NavLink>
             <div className="menu__icon" onClick={handleClick}>
                 <i className={hamburgerClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
