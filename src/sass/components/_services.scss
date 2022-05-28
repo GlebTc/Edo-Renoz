@@ -1,15 +1,18 @@
 .main__container li{
-    text-align: left;
+    
 }
 
 .li1 {
     font-size: 2rem;
     margin-left: 20px;
-    list-style-type: circle;
+    list-style-type: none;
+    font-weight: 900;
 }
 
 .li2 {
     font-size: 1.5rem;
-    margin-left: 40px;
-    list-style-type: square;
+    font-weight: 400;
+    list-style-type: circle;
+    text-align: left;
+    margin-left: 15%;
 }
