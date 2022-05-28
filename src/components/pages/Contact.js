@@ -33,6 +33,7 @@ const Contact = () => {
 
     return (
         <div className="main__container">
+          <h1>Inquiries / Quotes</h1>
             <form  id='contact-form'  onSubmit={handleSubmit}>
 
                 <input
