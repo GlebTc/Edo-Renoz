@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-// import emailjs from "emailjs-com" //npm install emailjs
+import emailjs from "emailjs-com" //npm install emailjs
 
 const Contact = () => {
 
@@ -25,15 +25,15 @@ const Contact = () => {
     })
   }
 
-// Function that handles the submit button and usess emailjs to format and send data via email.
-//   const handleSubmit = (e) => {
-//     e.preventDefault()
-//     emailjs.sendForm("service_sh5rr5e","template_i7nduro", e.target, "0gU9-7P7Fb0vD7eKY") // Arguments are: Service ID, Template ID, <input>, public key (the form onSubmit will specify the function that will run the emailjs)
-//   }
+//Function that handles the submit button and usess emailjs to format and send data via email.
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    emailjs.sendForm("service_sh5rr5e","template_i7nduro", e.target, "0gU9-7P7Fb0vD7eKY") // Arguments are: Service ID, Template ID, <input>, public key (the form onSubmit will specify the function that will run the emailjs)
+  }
 
     return (
         <div className="main__container">
-            <form  id='contact-form'  /*onSubmit={handleSubmit}*/>
+            <form  id='contact-form'  onSubmit={handleSubmit}>
 
                 <input
                 type='text'
