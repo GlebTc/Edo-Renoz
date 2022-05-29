@@ -1,13 +1,13 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Services from './components/pages/Services';
-import Gallery from './components/pages/Gallery';
+import Home from './components/pages/Home.tsx';
+import About from './components/pages/About.tsx';
+import Services from './components/pages/Services.tsx';
+import Gallery from './components/pages/Gallery.tsx';
 import Contact from './components/pages/Contact.tsx';
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import NavBar from "./components/NavBar.tsx";
+import Footer from "./components/Footer.tsx";
 
 import './sass/main.scss';
 
