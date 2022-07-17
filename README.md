@@ -1,6 +1,6 @@
 Basic small business website using:
 
-React JS, SCSS and Typescript.
+React JS, SASS and Typescript.
 
 The form is functional using emailjs package
 
